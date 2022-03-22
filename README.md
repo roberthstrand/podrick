@@ -1,0 +1,2 @@
+# podrick
+Your Kubernetes squire
