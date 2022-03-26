@@ -17,8 +17,8 @@ jobs:
       if: github.event_name == 'issues' || github.event_name == 'pull_request'
       uses: crayon/project-github-action@v1.0.0-beta3
       with:
-        project_number: 1
-        organization: 'caelesio'
+        project_number: 3
+        organization: 'roberthstrand'
         task_id: ${{ github.event.pull_request.node_id || github.event.issue.node_id }}
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         
